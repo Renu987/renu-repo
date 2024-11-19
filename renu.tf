@@ -7,3 +7,6 @@ resource "aws_instance" "abc" {
     Name = "scrip-terraform"
   }
 }
+resource "s3_bucket" "xyz" {
+  bucket = "name"
+}
